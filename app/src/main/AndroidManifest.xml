@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dailyreportapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DailyReportApp">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".ViewPdfActivity" />
+        <activity android:name=".addproject" />
+        <activity android:name=".sendnotification" />
+        <activity android:name=".setChatProfile" />
+        <activity android:name=".ChatProfileActivity" />
+        <activity android:name=".UpdateProfileChat" />
+        <activity android:name=".chatMain" />
+        <activity android:name=".otpAuthentication" />
+        <activity android:name=".chatActivity" />
+        <activity android:name=".specificchat" />
+        <activity android:name=".createnote" />
+        <activity android:name=".editnoteactivity" />
+        <activity android:name=".notedetails" />
+        <activity android:name=".NotesActivity" />
+        <activity android:name=".NewActivity" />
+        <activity android:name=".SocialMediaScreen" />
+        <activity android:name=".PortalsScreen" />
+        <activity android:name=".TodoScreen" />
+        <activity android:name=".LeaveStatus" />
+        <activity android:name=".ApplyLeave" />
+        <activity android:name=".Payslips" />
+        <activity android:name=".PolicyScreen" />
+        <activity android:name=".TeamScreen" />
+        <activity android:name=".LeaveScreen" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".AddMeetingScreen" />
+        <activity android:name=".MeetScreen" />
+        <activity android:name=".TaskScreen" />
+        <activity android:name=".Projects" />
+        <activity android:name=".Notifications" />
+        <activity android:name=".Profile" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity android:name=".UsersList" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <service
+            android:name=".NotificationsPackage.FirebaseMessagingService"
+            android:permission="TODO"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

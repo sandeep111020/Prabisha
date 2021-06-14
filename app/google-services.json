@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "315534196894",
+    "firebase_url": "https://daily-report-app-a79f5-default-rtdb.firebaseio.com",
+    "project_id": "daily-report-app-a79f5",
+    "storage_bucket": "daily-report-app-a79f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315534196894:android:256175e5e05f980545bb8f",
+        "android_client_info": {
+          "package_name": "com.example.dailyreportapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315534196894-ma1kmg0m5c936pguj0nmnvb0csrtnt6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dailyreportapp",
+            "certificate_hash": "293197436b8df8d90f0ea914601303e268480132"
+          }
+        },
+        {
+          "client_id": "315534196894-td6trsq57lom117crj7op6upvc817f26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8cGy8yvDfrjd1a6MQChMho4YV6AFWGe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315534196894-4c839kj4u17dpr23msb127ngsareirm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
